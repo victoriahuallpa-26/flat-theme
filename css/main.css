@@ -16,6 +16,13 @@
 *{
 	outline:solid red 1px;
 }
+.plomo-oscuro{
+	background:#141d25;
+}
+.plomo-claro{
+	background:#34495e;
+
+	}
 #lista-footer{
   list-style:none;
   float:right;
@@ -23,7 +30,18 @@
 #lista-footer li{
   width:100px;
   display:inline-block;
+
 }
 #lista-footer li a{
 	text-decoration:none;
+	color:white;
+	font-family:Roboto;
+}
+#blanco{
+	color:white;
+	font-family:Roboto;
+}
+.btn-default{
+    color:white;
+    background:#e74c3c;
 }
