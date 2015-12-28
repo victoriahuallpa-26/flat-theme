@@ -13,3 +13,17 @@
 .clearfix:after {
   clear: both;
 }
+*{
+	outline:solid red 1px;
+}
+#lista-footer{
+  list-style:none;
+  float:right;
+}
+#lista-footer li{
+  width:100px;
+  display:inline-block;
+}
+#lista-footer li a{
+	text-decoration:none;
+}
