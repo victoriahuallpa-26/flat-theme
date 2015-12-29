@@ -21,8 +21,18 @@
 }
 .plomo-claro{
 	background:#34495e;
-
 	}
+.rosado-salmon{
+	background:#e74c3c;
+}
+.especial{
+	height:50px;
+}
+.parrafo{
+    border-left:5px solid white;
+    padding-left:10px;
+    margin-top:25px;
+}
 .altura{
 	height:50px;
 }
@@ -30,17 +40,19 @@
 	list-style:none;
 	padding:0;
 }
-#pequeño{
+.pequeño{
 	font-size:10px;
 	font-family:Roboto;
 	color:white;
 }
-
+.centrado{
+	text-align:center;
+}
 #lista-footer{
   list-style:none;
   float:right;
-  width:300px;
-  margin-top:10px;
+  padding:0;
+  margin-top:20px;
 }
 #lista-footer li{
   width:70px;
@@ -57,7 +69,7 @@
 	font-family:Roboto;
 }
 .separado{
-	margin-top:10px;
+	margin-top:20px;
 	font-size:12px;
 }
 
