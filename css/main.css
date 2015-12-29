@@ -23,12 +23,27 @@
 	background:#34495e;
 
 	}
+.altura{
+	height:50px;
+}
+#lista-compani{
+	list-style:none;
+	padding:0;
+}
+#pequeño{
+	font-size:10px;
+	font-family:Roboto;
+	color:white;
+}
+
 #lista-footer{
   list-style:none;
   float:right;
+  width:300px;
+  margin-top:10px;
 }
 #lista-footer li{
-  width:100px;
+  width:70px;
   display:inline-block;
 
 }
@@ -37,11 +52,34 @@
 	color:white;
 	font-family:Roboto;
 }
-#blanco{
+.blanco{
 	color:white;
 	font-family:Roboto;
 }
+.separado{
+	margin-top:10px;
+	font-size:12px;
+}
+
 .btn-default{
     color:white;
     background:#e74c3c;
+    height:28px;
+
 }
+.form-control{
+	height:28px;
+
+}
+input:required{
+
+}
+
+
+
+
+
+
+
+
+
