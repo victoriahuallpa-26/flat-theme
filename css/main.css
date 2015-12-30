@@ -13,10 +13,145 @@
 .clearfix:after {
   clear: both;
 }
+ul{
+	margin: 0px;
+}
+/*** inicio header**/
+.main-menu{
+	list-style: none;
+    background: #141d25;
+    height: 60px;
+    
+    }
+.list-nav{
+    text-align: right;
+}
+	
+.list-nav li{
+	display: inline-block;
+}
+.list-nav a{
+	display: inline block;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 10px;
+	padding: 22px 10px 22px 10px;
+	float: right;
+	height: 60px;
 
+}
+ul .list-nav{
+	display: inline-block;
+	padding-bottom: 20px;
+	height: 300px; 
+	float: right;
+}
+.list-nav a:hover{
+	text-decoration: none;
+	transform: scale(1.2);
+	transition:all 0.5s;}
+.logo{
+	display: inline-block;
+	float: left;
+	padding-bottom: 15px;
+	padding-left: 100px;
+	padding-top: 15px
+}
+.fondo-icon{
 
+	background: rgba (0, 0, 0, 0.8);
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+}
+/*inicio verde*/
+.verde{
+	background: #0AC568;
+	padding:30px;
+	background: rgba (0, 0, 0, 0.1);
+}
+.verde1{
+	background: #0AC568;
+	padding:5px;
+}
+i.icon-twitter{
+    list-style: none;
+	color: #FFFFFF; 
+	font-size: 30px;
+	padding: 5px;
+}
+i.icon-facebook{
+    list-style: none;
+	color: #FFFFFF;
+	background: rgba (0, 0, 0, 0.1);
+	border-radius: 100%; 
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
+i.icon-google-plus-sign{
+    list-style: none;
+	color: #FFFFFF;
+	background: rgba (0, 0, 0, 0.1);
+	border-radius: 100%; 
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
+.letra{
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.letra1{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+/***inicio blanco***/
+.white{
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left: 30px;
+padding-right: 30px;
+background: #f4f4f3;
+}
+.play{
+	background: #e74c3c;
+	color: #FFFFFF;
+}
+.foto{
+	float: right;
+	display: inline-block;
+	padding: 20px;
+	width:100%;
+	height: 100%;
+	background: #FFFFFF;
 
-
+}
+.sep{
+	padding-top: 50px;
+}
+.letra2{
+	font-size: 20px; 
+}
+.letra3{
+	font-size: 8px;
+    text-align: center;
+}
+/***fin blanco***/
+/*contact*/
+iframe{
+	width:100%;
+}
+.mensaje{
+	height:100px;
+}
 
 
 
@@ -426,6 +561,18 @@ input:required{
 	border-left:5px solid grey;
 	padding-left:10px;
 	margin-top:30px;
+}
+.icono{
+	width:100%;
+	height:40px;
+    
+	background:grey;
+}
+.icono span{
+	color:white;
+	font-size:30px;
+	margin:5px;
+
 }
 
 
