@@ -17,6 +17,34 @@ ul{
 	margin: 0px;
 }
 /*** inicio header**/
+.navbar-inverse{
+	list-style: none;
+	background: #000000;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 10px;
+
+}
+.navbar-nav{
+	list-style: none;
+	float: right;
+	margin: 0;
+}
+
+.navbar {
+	list-style: none;
+	}
+
+.nav>li>a{
+	list-style: none;
+	position: relative;
+    display: block;
+    padding: 20px 14px 20px 13px;
+}
+.icon-bar{
+	list-style: none;
+	color: #FFFFFF;
+}
 .main-menu{
 	list-style: none;
     background: #141d25;
@@ -145,6 +173,35 @@ background: #f4f4f3;
     text-align: center;
 }
 /***fin blanco***/
+/***\blog****/
+.marco{
+	padding: 30px;
+}
+.marco1{
+	padding: 10px;
+} 
+.color-negro{
+	color:#000000;
+}
+.boton{
+	background: blue;
+	border-radius: 5px;
+	color: white;
+
+}
+.fotos{
+	float: right;
+	display: inline-block;
+	padding: 5px;
+	width:100%;
+	height: 100%;
+	background: #FFFFFF;
+
+}.blanco1{
+	background: #FFFFFF
+}
+
+/***\finblog****/
 /*contact*/
 iframe{
 	width:100%;
